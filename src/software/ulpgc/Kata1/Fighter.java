@@ -1,10 +1,10 @@
 package software.ulpgc.Kata1;
 
 public class Fighter {
-    private String name;
+    private final String name;
     private int hp;
-    private int attack;
-    private int defense;
+    private final int attack;
+    private final int defense;
 
     public Fighter(String name, int hp, int attack, int defense) {
         this.name = name;
